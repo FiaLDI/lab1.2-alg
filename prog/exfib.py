@@ -12,5 +12,5 @@ if __name__ == '__main__':
             end = time.perf_counter()
             b += (end - start)
         b = b / 1000000
-        print(f"{b:.09f}")
+        print(f"{b:.09f} - {a[n - 1]}")
         b = 0
